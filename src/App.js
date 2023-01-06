@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/Container';
 import About from './components/about';
 import Contact from './components/contact';
 import Experience from './components/experience';
@@ -10,7 +9,7 @@ import Projects from './components/projects';
 
 function App() {
 	return (
-		<Container>
+		<div>
 			<MainNavbar />
 			<Home />
 			<About />
@@ -18,7 +17,7 @@ function App() {
 			<Projects />
 			<Contact />
 			<MainFooter />
-		</Container>
+		</div>
 	);
 }
 
