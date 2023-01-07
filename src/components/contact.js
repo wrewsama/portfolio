@@ -19,13 +19,13 @@ export default function Contact() {
 
             <div className="col d-flex justify-content-center">
                 <a href="mailto:andrewlzs512@gmail.com">
-                    <img src={emailIcon} class="rounded" alt="email icon" />
+                    <img src={emailIcon} className="rounded" alt="email icon" />
                 </a>
             </div>
 
             <div className="col d-flex justify-content-center">
                 <a href="https://www.linkedin.com/in/andrewlozhisheng/">
-                    <img src={linkedinIcon} class="rounded" alt="linkedin icon" />
+                    <img src={linkedinIcon} className="rounded" alt="linkedin icon" />
                 </a>
             </div>
             
