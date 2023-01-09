@@ -2,6 +2,25 @@
   background-color: #0B0C10;
 }
 
-.custom-bg-grey {
-  background-color: #1F2833;
+.highlighted-btn {
+  border-color: #66FCF1;
+  color: #66FCF1;
+}
+
+.highlighted-btn:hover {
+  background-color: #66FCF1;
+  border-color: #66FCF1;
+  color: #0B0C10;
+}
+
+.text-heading {
+  color: #66FCF1;
+}
+
+.text-subheading {
+  color: #45A29E;
+}
+
+.text-normal {
+  color: #C5C6C7;
 }

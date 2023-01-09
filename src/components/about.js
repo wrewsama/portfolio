@@ -3,10 +3,10 @@ import React from 'react'
 export default function About() {
     return (
         <div className="row custom-bg-dark" id="about">
-            <div className="row gx-4 text-center">
+            <div className="row gx-4 text-center text-heading">
                 <h2>About</h2>
             </div>
-            <div className="row gx-4">
+            <div className="row gx-4 text-normal">
                 <div className="col text-center">
                     <h5>More about me: </h5>
 
@@ -17,12 +17,12 @@ export default function About() {
                     <h5>Skills: </h5>
 
                     <ul className="list-group text-start">
-                        <li className="list-group-item custom-bg-dark">Languages: x</li>
-                        <li className="list-group-item custom-bg-dark">Frameworks: x</li>
-                        <li className="list-group-item custom-bg-dark">Databases: x</li>
-                        <li className="list-group-item custom-bg-dark">Libraries: x</li>
-                        <li className="list-group-item custom-bg-dark">Developer Tools: x</li>
-                        <li className="list-group-item custom-bg-dark">Operating Systems: x</li>
+                        <li className="list-group-item custom-bg-dark text-normal">Languages: x</li>
+                        <li className="list-group-item custom-bg-dark text-normal">Frameworks: x</li>
+                        <li className="list-group-item custom-bg-dark text-normal">Databases: x</li>
+                        <li className="list-group-item custom-bg-dark text-normal">Libraries: x</li>
+                        <li className="list-group-item custom-bg-dark text-normal">Developer Tools: x</li>
+                        <li className="list-group-item custom-bg-dark text-normal">Operating Systems: x</li>
                     </ul>
                 </div>
             </div>

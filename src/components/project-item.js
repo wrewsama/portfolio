@@ -9,14 +9,22 @@ export default function ProjectItem({ title, techStack, screenshot, bulletPoints
             </div>
             <div className="col-4">
                 <div className="card-body">
-                    <p className="card-text lead"><strong>{title}</strong></p>
-                    <p className="card-text"><em>{techStack}</em></p>
+                    <p className="card-text lead">
+                        <strong className="text-heading">
+                            {title}
+                        </strong>
+                    </p>
+                    <p className="card-text">
+                        <em className="text-subheading">
+                            {techStack}
+                        </em>
+                    </p>
                     
                     <ul>
                         {
                             bulletPoints.map(point => {
                                 return (
-                                    <li className="card-text" key={point}>{point}</li>
+                                    <li className="card-text text-normal" key={point}>{point}</li>
                                 )
                             })
                         }
