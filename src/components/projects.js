@@ -6,7 +6,7 @@ import tsuyoIcon from '../img/tsuyo.png'
 
 export default function Projects() {
     return (
-        <div className="row bg-light">
+        <div className="row">
             <div className="container px-4 justify-content-center">
                 <div className="row text-center">
                     <h2>Projects</h2>
