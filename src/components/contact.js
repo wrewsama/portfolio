@@ -6,7 +6,7 @@ import linkedinIcon from "../img/linkedin.png"
 
 export default function Contact() {
     return (
-        <div className="row bg-light">
+        <div className="row bg-light" id="contact">
             <div className="text-center">
                 <h2>Contact</h2>
             </div>
