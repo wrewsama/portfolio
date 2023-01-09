@@ -3,7 +3,7 @@ import Typed from 'react-typed'
 
 export default function Home() {
     return (
-        <header className="bg-primary bg-gradient text-white" id="home">
+        <header className="custom-bg-dark text-white" id="home">
             <div className="container px-4 text-center">
                 <h1 className="fw-bolder">
                     <Typed strings={["Hi, I'm wrewsama!"]}

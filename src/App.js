@@ -6,6 +6,7 @@ import MainFooter from './components/footer';
 import Home from './components/home';
 import MainNavbar from './components/navbar';
 import Projects from './components/projects';
+import './App.css'
 
 function App() {
 	return (
