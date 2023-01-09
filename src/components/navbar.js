@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MainNavbar() {
     return (
-        <nav className="navbar navbar-expand-lg custom-bg-dark">
+        <nav className="navbar sticky-top navbar-expand-lg custom-bg-dark">
             <div className="container-fluid">
                 <span className="navbar-brand text-heading">wrewsama</span>
 
