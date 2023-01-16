@@ -6,17 +6,34 @@ import MainFooter from './components/footer';
 import Home from './components/home';
 import MainNavbar from './components/navbar';
 import Projects from './components/projects';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import './App.css'
 
 function App() {
 	return (
-		<div className="custom-bg-dark d-grid gap-5">
+		<div className="custom-bg-dark">
 			<MainNavbar />
-			<Home />
-			<About />
-			<Experience />
-			<Projects />
-			<Contact />
+			<Parallax className="custom-bg-dark" pages={5}>
+				<ParallaxLayer>
+					<Home />
+				</ParallaxLayer>
+
+				<ParallaxLayer offset={1}>
+					<About />
+				</ParallaxLayer>
+
+				<ParallaxLayer offset={2}>
+					<Experience />
+				</ParallaxLayer>
+
+				<ParallaxLayer offset={3}>
+					<Projects />
+				</ParallaxLayer>
+
+				<ParallaxLayer offset={4}>
+					<Contact />
+				</ParallaxLayer>
+			</Parallax>
 			<MainFooter />
 		</div>
 	);
