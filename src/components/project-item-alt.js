@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ProjectItemAlt({ title, techStack, screenshot, bulletPoints }) {
   return (
-    <div className="card mb-3 bg-transparent" style={{maxWidth: "1440px"}}>
+    <div className="card mb-3 bg-transparent my-5" style={{maxWidth: "1440px"}} data-aos="zoom-in-left">
         <div className="row g-0">
         <div className="col-4">
                 <div className="card-body">

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div className="row" id="about">
+        <div className="row my-5" id="about" data-aos="fade-up">
             <div className="row gx-4 text-center text-heading">
                 <h2>About</h2>
             </div>

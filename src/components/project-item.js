@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ProjectItem({ title, techStack, screenshot, bulletPoints }) {
   return (
-    <div className="card mb-3 bg-transparent" style={{maxWidth: "1440px"}}>
+    <div className="card mb-3 bg-transparent my-5" style={{maxWidth: "1440px"}} data-aos="zoom-in-right">
         <div className="row g-0">
             <div className="col-8 p-3" >
                 <img src={screenshot} className="img-fluid rounded" alt="project screenshot" />

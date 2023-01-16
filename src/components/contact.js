@@ -6,7 +6,7 @@ import linkedinIcon from "../img/linkedin.png"
 
 export default function Contact() {
     return (
-        <div className="row" id="contact">
+        <div className="row my-5" data-aos="fade-up" id="contact">
             <div className="text-center text-heading">
                 <h2>Contact</h2>
             </div>
