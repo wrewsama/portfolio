@@ -6,7 +6,7 @@ import tsuyoIcon from '../img/tsuyo.png'
 
 export default function Projects() {
     return (
-        <div className="row custom-bg-dark" id="projects">
+        <div className="row" id="projects">
             <div className="container px-4 justify-content-center">
                 <div className="row text-center text-heading">
                     <h2>Projects</h2>

@@ -3,7 +3,7 @@ import ExperienceItem from './experience-item'
 
 export default function Experience() {
     return (
-        <div className="row custom-bg-dark" id="experience">
+        <div className="row" id="experience">
             <div className="container px-4 justify-content-center">
                 <div className="row text-center text-heading">
                     <h2>Experience</h2>

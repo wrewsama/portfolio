@@ -11,13 +11,16 @@ import './App.css'
 
 function App() {
 	return (
-		<div className="custom-bg-dark">
+		<div className="custom-bg-dark" style={{
+			backgroundImage: `url(${bg})`,
+			backgroundSize: 'cover'
+		}}>
 			<MainNavbar />				
-				<Home />
-				<About />
-				<Experience />
-				<Projects />
-				<Contact />
+			<Home />
+			<About />
+			<Experience />
+			<Projects />
+			<Contact />
 			<MainFooter />
 		</div>
 	);
