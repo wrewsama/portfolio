@@ -10,19 +10,27 @@ export default function About() {
                 <div className="col text-center">
                     <h5>More about me: </h5>
 
-                    <p>Lorem ipsum dolor whatever</p>
+                    <p className = "mx-3">
+                        Hi! I'm <strong>Andrew Lo Zhi Sheng</strong>.
+                        I'm currently pursuing a Bachelor's Degree in Computer Science at the National University of Singapore (NUS).
+                        My interests include Software Engineering, Database Systems, as well as Artificial Intelligences and Machine Learning.
+                    </p>
+
+                    <p className = "mx-3">
+                        Outside of work, I enjoy powerlifting, calisthenics, and Brazillian Jiu Jitsu.
+                    </p>
                 </div>
 
                 <div className="col text-center">
                     <h5>Skills: </h5>
 
                     <ul className="list-group text-start">
-                        <li className="list-group-item bg-transparent text-normal">Languages: x</li>
-                        <li className="list-group-item bg-transparent text-normal">Frameworks: x</li>
-                        <li className="list-group-item bg-transparent text-normal">Databases: x</li>
-                        <li className="list-group-item bg-transparent text-normal">Libraries: x</li>
-                        <li className="list-group-item bg-transparent text-normal">Developer Tools: x</li>
-                        <li className="list-group-item bg-transparent text-normal">Operating Systems: x</li>
+                        <li className="list-group-item bg-transparent text-normal">Languages: Java, Python, C, JavaScript, HTML/CSS</li>
+                        <li className="list-group-item bg-transparent text-normal">Frameworks: React, Express, Node.js, Bootstrap, Flask, ROS1</li>
+                        <li className="list-group-item bg-transparent text-normal">Databases: MongoDB, PostgreSQL</li>
+                        <li className="list-group-item bg-transparent text-normal">Libraries: PyTorch, Tkinter, pandas, NumPy, Matplotlib</li>
+                        <li className="list-group-item bg-transparent text-normal">Developer Tools: Git, VS Code, IntelliJ</li>
+                        <li className="list-group-item bg-transparent text-normal">Operating Systems: Windows, Linux</li>
                     </ul>
                 </div>
             </div>
