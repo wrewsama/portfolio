@@ -10,7 +10,7 @@ import './App.css'
 
 function App() {
 	return (
-		<div>
+		<div className="custom-bg-dark d-grid gap-5">
 			<MainNavbar />
 			<Home />
 			<About />
