@@ -18,17 +18,19 @@ function App() {
 	}, [])
 
 	return (
-		<div className="custom-bg-dark d-grid gap-5" style={{
+		<div >
+			<div style={{
 			backgroundImage: `url(${bg})`,
-			backgroundSize: 'cover'
-		}}>
-			<MainNavbar />				
-			<Home />
-			<About />
-			<Experience />
-			<Projects />
-			<Contact />
-			<MainFooter />
+			backgroundSize: 'cover',
+		    }}>
+				<MainNavbar />
+				<Home />
+				<About />
+				<Experience />
+				<Projects />
+				<Contact />
+				<MainFooter />
+			</div>
 		</div>
 	);
 }
