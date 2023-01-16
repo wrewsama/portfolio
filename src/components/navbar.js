@@ -4,7 +4,7 @@ export default function MainNavbar() {
     return (
         <nav className="navbar sticky-top navbar-expand-lg custom-bg-dark">
             <div className="container-fluid">
-                <span className="navbar-brand text-heading">wrewsama</span>
+                <a className="navbar-brand text-heading" href="#home">wrewsama</a>
 
                 
                 <ul className="navbar-nav">
