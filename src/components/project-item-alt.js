@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ProjectItemAlt({ title, techStack, screenshot, bulletPoints }) {
+export default function ProjectItemAlt({ title, techStack, screenshot, bulletPoints, links }) {
   return (
     <div className="card mb-3 bg-transparent my-5" style={{maxWidth: "1440px"}} data-aos="zoom-in-left">
         <div className="row g-0">
@@ -26,6 +26,20 @@ export default function ProjectItemAlt({ title, techStack, screenshot, bulletPoi
                             })
                         }
                     </ul>
+
+                    <div className = 'btn-group'>
+                        {
+                            links.map(link => {
+                                return (
+                                    <div key={link.name}>
+                                        <a href={link.url}>
+                                            <button className='btn btn-outline-light highlighted-btn'> {link.name} </button>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
 
