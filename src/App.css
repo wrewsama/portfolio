@@ -24,3 +24,18 @@
 .text-normal {
   color: #C5C6C7;
 }
+
+.text-with-shadow {
+  text-shadow: 1px 1px black;
+}
+
+.image {
+  position: relative;
+  height: 100vh;
+}
+
+.content {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}

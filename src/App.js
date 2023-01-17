@@ -7,10 +7,12 @@ import MainFooter from './components/footer';
 import Home from './components/home';
 import MainNavbar from './components/navbar';
 import Projects from './components/projects';
-import bg from './img/bg.jpg'
+import bg1 from './img/bg4.jpg'
+import bg2 from './img/bg5.jpeg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './App.css'
+import { Parallax } from 'react-parallax';
 
 function App() {
 	useEffect(() => {
@@ -18,19 +20,18 @@ function App() {
 	}, [])
 
 	return (
-		<div >
-			<div style={{
-			backgroundImage: `url(${bg})`,
-			backgroundSize: 'cover',
-		    }}>
-				<MainNavbar />
-				<Home />
-				<About />
-				<Experience />
-				<Projects />
-				<Contact />
-				<MainFooter />
-			</div>
+		<div className="custom-bg-dark">	
+			<MainNavbar />
+				<Parallax bgImage={bg1} strength={-400}>
+					<Home />
+					<About />
+				</Parallax>
+					<Experience />
+					<Projects />
+				<Parallax bgImage={bg2} strength={-400}>
+					<Contact />
+				</Parallax>
+			<MainFooter />
 		</div>
 	);
 }
