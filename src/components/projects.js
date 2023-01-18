@@ -2,6 +2,8 @@ import React from 'react'
 import ProjectItem from './project-item'
 import ProjectItemAlt from './project-item-alt'
 import tsuyoIcon from '../img/tsuyo.png'
+import tmwIcon from '../img/tmw.png'
+import gcIcon from '../img/githubcontact.png'
 
 
 export default function Projects() {
@@ -13,25 +15,42 @@ export default function Projects() {
                 </div>
 
                 <div className="row d-flex justify-content-center">
-                    <ProjectItem title="title"
-                                techStack={"tech1/tech2/tech3"}
+                    <ProjectItem title="tsuyo"
+                                techStack={"MongoDB, Express, React, Node.js, Bootstrap"}
                                 screenshot={tsuyoIcon}
-                                bulletPoints={["point 1", "point 2", "point 3"]}
-                                links={[{ name: "source code",
-                                          url: "https://github.com/" },
-                                        { name: "website",
-                                          url: "https://www.youtube.com/watch?v=AVRF8B504GE&list=RDC0uCU8jcxlM&index=5"}]} />
+                                bulletPoints={["Engineered a full-stack web application for users to track workouts and view progress over time through interactive graphs made using React and ChartJS",
+                                               "Ensured secure transmission of data from backend to frontend utilising JSON web tokens"]}
+                                links={[{ name: "website",
+                                          url: "tsuyo.onrender.com" },
+                                        { name: "frontend code",
+                                          url: "https://github.com/wrewsama/tsuyo-frontend"},
+                                        { name: "backend code",
+                                          url: "https://github.com/wrewsama/tsuyo-backend"}]} />
                 </div>
 
                 <div className="row d-flex justify-content-center">
-                    <ProjectItemAlt title="title 2"
-                                    techStack={"tech1/tech2/tech3"}
-                                    screenshot={tsuyoIcon}
-                                    bulletPoints={["point 1", "point 2", "point 3"]}
+                    <ProjectItemAlt title="toomanywords"
+                                    techStack={"React, Flask, Firebase"}
+                                    screenshot={tmwIcon}
+                                    bulletPoints={["Collaborated in a two man team to develop a full-stack web based text summariser for students and educators to shorten overly verbose text",
+                                                   "Leveraged open-source Natural Language Processing library, Hugging Face  Transformers to summarise input text automatically and integrated it into backend using Flask",
+                                                   "Experimented with performance of multiple pre-trained NLP and summariser models from Hugging Face"]}
                                     links={[{ name: "source code",
-                                          url: "https://github.com/" },
-                                        { name: "website",
-                                          url: "https://www.youtube.com/watch?v=AVRF8B504GE&list=RDC0uCU8jcxlM&index=5"}]} />
+                                              url: "https://github.com/Ramanathan0908/Orbital" },
+                                            { name: "demo video",
+                                              url: "https://drive.google.com/file/d/1G2qCzFBWzxYBWx1Hx_66Fmj7FLbqUS-P/view?usp=sharing"}]} />
+                </div>
+
+                <div className="row d-flex justify-content-center">
+                    <ProjectItem title="GithubContact"
+                                techStack={"Java, JUnit"}
+                                screenshot={gcIcon}
+                                bulletPoints={["point 1",
+                                               "point 2"]}
+                                links={[{ name: "source code",
+                                          url: "https://github.com/AY2223S1-CS2103T-W08-2/tp"},
+                                        { name: "jar file",
+                                          url: "https://github.com/AY2223S1-CS2103T-W08-2/tp/releases/tag/v1.4"}]} />
                 </div>
             </div>
         </div>
