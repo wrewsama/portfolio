@@ -13,7 +13,7 @@ export default function About() {
                     <p className = "mx-3">
                         Hi! I'm <strong>Andrew Lo Zhi Sheng</strong>.
                         I'm currently pursuing a Bachelor's Degree in Computer Science at the National University of Singapore (NUS).
-                        My interests include Software Engineering, Database Systems, as well as Artificial Intelligences and Machine Learning.
+                        My interests include Software Engineering, Database Systems, as well as Artificial Intelligence and Machine Learning.
                     </p>
 
                     <p className = "mx-3">
