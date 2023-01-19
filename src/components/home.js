@@ -15,7 +15,7 @@ export default function Home() {
                     Submission Grappling hobbyist.
                     Living in accordance with kaizen.
                 </p>
-                <a className="btn btn-lg btn-outline-light highlighted-btn" href="#">
+                <a className="btn btn-lg btn-outline-light highlighted-btn" href="https://drive.google.com/file/d/1MJAO1s1ec08e9yz7NC2GUCtQ4EpYXhnS/view?usp=sharing">
                     My Resume
                 </a>
             </div>
