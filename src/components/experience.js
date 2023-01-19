@@ -14,6 +14,13 @@ export default function Experience() {
                                 date="Jan 2023 - Present"
                                 bulletPoints={["Maintained a self-help Web Portal used by several hundred GrabRentals drivers"]}/>
 
+                <ExperienceItem jobTitle="Undergraduate Teaching Assistant"
+                                company="NUS"
+                                date="Aug 2022 - Present"
+                                bulletPoints={["Taught fundamental programming concepts to a tutorial group of six CS1101S Programming Methodology 1 students",
+                                               "Facilitated weekly CS2100 Computer Organisation lab sessions, covering concepts including Boolean logic, C, and MIPS Assembly",
+                                               "Guided students in CS2030S Programming Methodology 2 lab sessions, involving OOP and Functional Programming"]}/>
+
                 <ExperienceItem jobTitle="Robotics Software Engineer Intern"
                                 company="Robotics Innovation Lab, SUTD"
                                 date="May 2022 - Aug 2022"
@@ -23,12 +30,7 @@ export default function Experience() {
                                                "Developed a Graphical User Interface to accelerate data collection and model training processes using Tkinter and Model View Controller architecture in Python",
                                                "Enhanced readability of codebase by adding hundreds of lines of documentation and comments, as well as by rewriting code in accordance with PEP 8"]}/>
 
-                <ExperienceItem jobTitle="Undergraduate Teaching Assistant"
-                                company="NUS"
-                                date="Aug 2022 - Present"
-                                bulletPoints={["Taught fundamental programming concepts to a tutorial group of six CS1101S Programming Methodology 1 students",
-                                               "Facilitated weekly CS2100 Computer Organisation lab sessions, covering concepts including Boolean logic, C, and MIPS Assembly",
-                                               "TODO!!!!!!!!!!!!!!!"]}/>
+                
             </div>
         </div>
     )
