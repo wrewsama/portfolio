@@ -7,7 +7,6 @@ import MainFooter from './components/footer';
 import Home from './components/home';
 import MainNavbar from './components/navbar';
 import Projects from './components/projects';
-import bg1 from './img/bg4.jpg'
 import bg2 from './img/bg5.jpeg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
