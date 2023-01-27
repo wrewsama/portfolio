@@ -22,15 +22,13 @@ function App() {
 	return (
 		<div className="custom-bg-dark">	
 			<MainNavbar />
-				<Parallax bgImage={bg1} strength={-400}>
+				<Parallax bgImage={bg2} strength={800}>
 					<Home />
 					<About />
 				</Parallax>
-					<Experience />
-					<Projects />
-				<Parallax bgImage={bg2} strength={-400}>
-					<Contact />
-				</Parallax>
+				<Experience />
+				<Projects />
+				<Contact />
 			<MainFooter />
 		</div>
 	);
