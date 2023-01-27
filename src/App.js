@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap'
 import { useEffect } from 'react';
 import About from './components/about';
 import Contact from './components/contact';

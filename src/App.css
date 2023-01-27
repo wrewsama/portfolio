@@ -2,6 +2,10 @@
   background-color: #0B0C10;
 }
 
+.light-dropdown-btn {
+  background-color: #66FCF1;
+}
+
 .highlighted-btn {
   border-color: #66FCF1;
   color: #66FCF1;
