@@ -46,7 +46,7 @@ export default function Projects() {
                                 techStack={"Java, JUnit"}
                                 screenshot={gcIcon}
                                 bulletPoints={["Cooperated with a group of 4 other students to build an address book application with automatic syncing with the Github Public API",
-                                               "Devised unit and integration tests and implemented CI/CD using JUnit 4 and Github Actions"]}
+                                               "Devised unit and integration tests and implemented CI/CD using JUnit 5 and Github Actions"]}
                                 links={[{ name: "source code",
                                           url: "https://github.com/AY2223S1-CS2103T-W08-2/tp"},
                                         { name: "jar file",
