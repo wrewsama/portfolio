@@ -4,7 +4,10 @@ export default function NonFeaturedProject({ img, title, desc, link }) {
     return (
         <div className="col-3 d-flex justify-content-center">
             <div className="card bg-dark text-center" style={{height: '15rem', width: '15rem'}}>
-                <img src={img} className="card-img" style={{height: '15rem', width: '15rem'}} />
+                <img src={img}
+                     alt={title}
+                     className="card-img"
+                     style={{height: '15rem', width: '15rem'}} />
 
                 <div className="card-img-overlay">
                     <h4 className='card-title text-heading'>{title}</h4>
