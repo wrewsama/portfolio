@@ -24,8 +24,13 @@ export default function MainNavbar() {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link text-subheading" href="#projects">Projects</a>
+                            <a className="nav-link text-subheading" href="#projects">Featured Projects</a>
                         </li>
+
+                        <li className="nav-item">
+                            <a className="nav-link text-subheading" href="#other-projects">Other Projects</a>
+                        </li>
+
                         <li className="nav-item">
                             <a className="nav-link text-subheading" href="#contact">Contact</a>
                         </li>
