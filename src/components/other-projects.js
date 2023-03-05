@@ -1,6 +1,8 @@
 import React from 'react'
 import NonFeaturedProject from './non-featured-project'
 import hnrIcon from '../img/hnr.png'
+import notDukeIcon from '../img/notduke.png'
+import calcIcon from '../img/calc.png'
 
 export default function OtherProjects() {
     return (
@@ -19,21 +21,21 @@ export default function OtherProjects() {
                                     }}
                                      />
 
-                <NonFeaturedProject title="Hydration Tracker"
-                                    img={hnrIcon}
-                                    desc="A web app to track water intake."
+                <NonFeaturedProject title="Totally Not Duke"
+                                    img={notDukeIcon}
+                                    desc="A todo list chatbot made with Java/JavaFX and tested with JUnit."
                                     link={{
-                                        name: "website",
-                                        url: "https://hnr2023-stayhydrated.onrender.com/"
+                                        name: "jar file",
+                                        url: "https://github.com/wrewsama/ip/releases/tag/v0.3"
                                     }}
                                      />
                 
-                <NonFeaturedProject title="Hydration Tracker"
-                                    img={hnrIcon}
-                                    desc="A web app to track water intake."
+                <NonFeaturedProject title="Calculator"
+                                    img={calcIcon}
+                                    desc="A simple calculator made using vanilla HTML, CSS, and Javascript."
                                     link={{
                                         name: "website",
-                                        url: "https://hnr2023-stayhydrated.onrender.com/"
+                                        url: "https://wrewsama.github.io/odin-calculator/"
                                     }}
                                      />
             </div>
