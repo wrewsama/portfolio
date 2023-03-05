@@ -13,6 +13,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import './App.css'
 import { Parallax } from 'react-parallax';
+import OtherProjects from './components/other-projects';
 
 function App() {
 	useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
 				</Parallax>
 				<Experience />
 				<Projects />
+				<OtherProjects />
 				<Contact />
 			<MainFooter />
 		</div>
