@@ -21,7 +21,7 @@ export default function Projects() {
                                 bulletPoints={["Engineered a full-stack web application for users to track workouts and view progress over time through interactive graphs made using React and ChartJS",
                                                "Ensured secure transmission of data from backend to frontend utilising JSON web tokens"]}
                                 links={[{ name: "website",
-                                          url: "tsuyo.onrender.com" },
+                                          url: "https://tsuyo.onrender.com/login" },
                                         { name: "frontend code",
                                           url: "https://github.com/wrewsama/tsuyo-frontend"},
                                         { name: "backend code",
