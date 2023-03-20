@@ -21,7 +21,9 @@ export default function ProjectItemAlt({ title, techStack, screenshot, bulletPoi
                         {
                             bulletPoints.map(point => {
                                 return (
-                                    <li className="card-text text-normal" key={point}>{point}</li>
+                                    <li className="card-text text-normal d-none d-md-block" key={point}>
+										{point}
+									</li>
                                 )
                             })
                         }
