@@ -25,7 +25,7 @@ export default function About() {
                     <h5>Skills: </h5>
 
                     <ul className="list-group text-start">
-                        <li className="list-group-item bg-transparent text-normal">Languages: Java, Python, C, JavaScript, HTML/CSS</li>
+                        <li className="list-group-item bg-transparent text-normal">Languages: Java, Python, C, JavaScript, TypeScript, HTML/CSS</li>
                         <li className="list-group-item bg-transparent text-normal">Frameworks: React, Express, Node.js, Bootstrap, Flask, ROS1</li>
                         <li className="list-group-item bg-transparent text-normal">Databases: MongoDB, PostgreSQL, MySQL</li>
                         <li className="list-group-item bg-transparent text-normal">Libraries: PyTorch, Tkinter, pandas, NumPy, Matplotlib</li>
