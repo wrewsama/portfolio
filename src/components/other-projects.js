@@ -3,6 +3,7 @@ import NonFeaturedProject from './non-featured-project'
 import hnrIcon from '../img/hnr.png'
 import notDukeIcon from '../img/notduke.png'
 import calcIcon from '../img/calc.png'
+import chewsyIcon from '../img/chewsy.png'
 
 export default function OtherProjects() {
     return (
@@ -12,6 +13,14 @@ export default function OtherProjects() {
             </div>
 
             <div className="row d-flex justify-content-center">
+                <NonFeaturedProject title="Chew-sy"
+                                    img={chewsyIcon}
+                                    desc="Web app to help teams decide where to go for lunch made with React, Typescript, Play/Akka, and Java."
+                                    link={{
+                                        name: "website",
+                                        url: "https://chew-sy.onrender.com/"
+                                    }}
+                                     />
                 <NonFeaturedProject title="Hydration Tracker"
                                     img={hnrIcon}
                                     desc="Web app to track water intake made with MongoDB, Express, React, and Node."
