@@ -29,7 +29,20 @@ export default function ProjectItemAlt({ title, techStack, screenshot, bulletPoi
                         }
                     </ul>
 
-                    <div className = 'btn-group'>
+                    <div className = 'btn-group d-md-flex d-none'>
+                        {
+                            links.map(link => {
+                                return (
+                                    <div key={link.name}>
+                                        <a href={link.url}>
+                                            <button className='btn btn-outline-light highlighted-btn'> {link.name} </button>
+                                        </a>
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
+                    <div className = 'd-md-none'>
                         {
                             links.map(link => {
                                 return (
