@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ExperienceItem({ jobTitle, company, date, bulletPoints }) {
   return (
-    <div className="container m-5">
+    <div className="container my-5">
         <div className="row gx-4 justify-content-center text-normal" data-aos="zoom-in">
             <h5 className="mb-1">
                 <strong>{jobTitle}</strong> @ <span className="text-heading">{company}</span>
