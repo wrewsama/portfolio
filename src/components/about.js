@@ -25,12 +25,10 @@ export default function About() {
                     <h5>Skills: </h5>
 
                     <ul className="list-group text-start">
-                        <li className="list-group-item bg-transparent text-normal">Languages: Java, Python, C, JavaScript, TypeScript, HTML/CSS</li>
-                        <li className="list-group-item bg-transparent text-normal">Frameworks: React, Express, Node.js, Bootstrap, Flask, ROS1</li>
+                        <li className="list-group-item bg-transparent text-normal">Languages: Java, Python, C, JavaScript, TypeScript, Golang, HTML/CSS</li>
+                        <li className="list-group-item bg-transparent text-normal">Frameworks: Spring Boot, React, Express, Node.js, Bootstrap, Flask, Docker</li>
                         <li className="list-group-item bg-transparent text-normal">Databases: MongoDB, PostgreSQL, MySQL</li>
                         <li className="list-group-item bg-transparent text-normal">Libraries: PyTorch, Tkinter, pandas, NumPy, Matplotlib</li>
-                        <li className="list-group-item bg-transparent text-normal">Developer Tools: Git, VS Code, IntelliJ</li>
-                        <li className="list-group-item bg-transparent text-normal">Operating Systems: Windows, Linux</li>
                     </ul>
                 </div>
             </div>
