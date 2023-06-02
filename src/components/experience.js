@@ -12,7 +12,7 @@ export default function Experience() {
                 <ExperienceItem jobTitle="Software Engineer Intern"
                                 company="GovTech"
                                 date="May 2023 - Present"
-                                bulletPoints={["Maintained a self-help Web Portal used by several thousand GrabRentals drivers"]}/>
+                                bulletPoints={["Engineered features for micro-services for the Citizen Disbursement System using Spring Boot and Java"]}/>
 
                 <ExperienceItem jobTitle="Software Engineer Intern"
                                 company="Grab"
