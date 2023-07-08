@@ -12,7 +12,8 @@ export default function Experience() {
                 <ExperienceItem jobTitle="Software Engineer Intern"
                                 company="GovTech"
                                 date="May 2023 - Present"
-                                bulletPoints={["Engineered features for micro-services for the Citizen Disbursement System using Spring Boot and Java"]}/>
+                                bulletPoints={["Engineered features for micro-services for the Citizen Disbursement System using Spring Boot and Java",
+                                               "Leveraged tools such as Apache Kafka, Docker, and Kubernetes to implement functionality"]}/>
 
                 <ExperienceItem jobTitle="Software Engineer Intern"
                                 company="Grab"
