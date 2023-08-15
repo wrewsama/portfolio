@@ -10,7 +10,7 @@ export default function Home() {
                         typeSpeed={30} />
                 </h1>
                 <p className="lead text-normal text-with-shadow">
-                    Computer Science Sophomore,
+                    Computer Science Student,
                     Software Engineer,
                     Submission Grappling hobbyist.
                     Living in accordance with kaizen.
