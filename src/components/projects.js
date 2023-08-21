@@ -5,6 +5,7 @@ import tsuyoIcon from '../img/tsuyo.png'
 import tmwIcon from '../img/tmw.png'
 import gcIcon from '../img/githubcontact.png'
 import mftIcon from '../img/mft.jpg'
+import oshigotoIcon from '../img/oshigoto.png'
 
 
 export default function Projects() {
@@ -13,6 +14,20 @@ export default function Projects() {
             <div className="container px-4 justify-content-center">
                 <div className="row text-center text-heading">
                     <h2>Projects</h2>
+                </div>
+
+                <div className="row d-flex justify-content-center">
+                    <ProjectItemAlt
+                      title="Oshigoto"
+                      techStack={"Vue, Django, Selenium"}
+                      screenshot={oshigotoIcon}
+                      bulletPoints={["Developed an application for scraping job listings and gathering insights from five different job listing sites"]}
+                      links={[{ 
+                        name: "source code",
+                        url: "https://github.com/wrewsama/oshigoto"}]
+                        }
+                      />
+
                 </div>
 
                 <div className="row d-flex justify-content-center">

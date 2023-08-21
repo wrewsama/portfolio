@@ -26,7 +26,7 @@ export default function About() {
 
                     <ul className="list-group text-start">
                         <li className="list-group-item bg-transparent text-normal">Languages: Java, Python, C, JavaScript, TypeScript, Golang, HTML/CSS</li>
-                        <li className="list-group-item bg-transparent text-normal">Frameworks: Spring Boot, React, Express, Node.js, Bootstrap, Flask, Docker</li>
+                        <li className="list-group-item bg-transparent text-normal">Frameworks: Spring Boot, Node, Django, React, Vue, Express, Flask, Docker </li>
                         <li className="list-group-item bg-transparent text-normal">Databases: MongoDB, PostgreSQL, MySQL</li>
                         <li className="list-group-item bg-transparent text-normal">Libraries: PyTorch, Tkinter, pandas, NumPy, Matplotlib</li>
                     </ul>
