@@ -58,8 +58,8 @@ export default function ProjectItemAlt({ title, techStack, screenshot, bulletPoi
                 </div>
             </div>
 
-            <div className="col-8 p-3" >
-                <img src={screenshot} className="img-fluid rounded" alt="project screenshot" />
+            <div className="col-8 p-3 d-flex justify-content-center" >
+                <img src={screenshot} className="img-fluid rounded" alt="project screenshot" style={{maxHeight: "512px"}} />
             </div>
         </div>
     </div>

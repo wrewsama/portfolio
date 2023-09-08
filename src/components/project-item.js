@@ -4,8 +4,8 @@ export default function ProjectItem({ title, techStack, screenshot, bulletPoints
   return (
     <div className="card mb-3 bg-transparent my-5" style={{maxWidth: "1440px"}} data-aos="zoom-in-right">
         <div className="row g-0">
-            <div className="col-8 p-3" >
-                <img src={screenshot} className="img-fluid rounded" alt="project screenshot" />
+            <div className="col-8 p-3 d-flex justify-content-center" >
+                <img src={screenshot} className="img-fluid rounded" alt="project screenshot" style={{maxHeight: "512px"}} />
             </div>
             <div className="col-4">
                 <div className="card-body">
