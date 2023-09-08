@@ -12,15 +12,15 @@ export default function Experience() {
                 <ExperienceItem jobTitle="Software Engineer Intern"
                                 company="GovTech"
                                 date="May 2023 - Present"
-                                bulletPoints={["Engineered features for micro-services for the Citizen Disbursement System using Spring Boot and Java",
-                                               "Leveraged tools such as AWS, Apache Kafka, Docker, and Kubernetes to implement functionality"]}/>
+                                bulletPoints={["Engineered features for micro-services for the Citizen Disbursement System using technologies such as AWS, Spring Boot, Apache Kafka, Docker, and Kubernetes, handling government payouts for up to 6 million citizens",
+                                               "Optimised application performance through code refactoring, reducing memory usage by over 95%"]}/>
 
                 <ExperienceItem jobTitle="Software Engineer Intern"
                                 company="Grab"
                                 date="Jan 2023 - May 2023"
-                                bulletPoints={["Maintained a self-help Web Portal used by several thousand GrabRentals drivers",
-                                               "Created a script to automatically generate invoice statements using MySQL, NodeJS, and AWS S3",
-                                               "Communicated with various teams including Operations and two Tech teams from Indonesia and Vietnam"]}/>
+                                bulletPoints={["Enhanced a self-help Web Portal by developing features utilised by several hundred GrabRentals drivers and staff",
+                                               "Automated business processes by creating a script to automatically generate invoice statements using MySQL, NodeJS, and AWS S3, saving dozens of man-hours per annum",
+                                               "Spearheaded communication between various teams including Operations and two Tech teams from Indonesia and Vietnam"]}/>
 
                 <ExperienceItem jobTitle="Undergraduate Teaching Assistant"
                                 company="NUS"
