@@ -1,5 +1,6 @@
 import React from 'react'
 import NonFeaturedProject from './non-featured-project'
+import gcIcon from '../img/githubcontact.png'
 import hnrIcon from '../img/hnr.png'
 import notDukeIcon from '../img/notduke.png'
 import calcIcon from '../img/calc.png'
@@ -12,7 +13,7 @@ export default function OtherProjects() {
                 <h2>Other Projects</h2>
             </div>
 
-            <div className="row d-flex justify-content-center">
+            <div className="row d-flex justify-content-center mb-5">
                 <NonFeaturedProject title="Chew-sy"
                                     img={chewsyIcon}
                                     desc="Web app to help teams decide where to go for lunch made with React, Typescript, Play/Akka, and Java."
@@ -29,7 +30,18 @@ export default function OtherProjects() {
                                         url: "https://hnr2023-stayhydrated.onrender.com/"
                                     }}
                                      />
+                <NonFeaturedProject title="GithubContact"
+                                    img={gcIcon}
+                                    desc="An addressbook integrated with GitHub to manage software teams."
+                                    link={{
+                                        name: "jar file",
+                                        url: "https://github.com/AY2223S1-CS2103T-W08-2/tp/releases/tag/v1.4"
+                                    }}
+                                     />
 
+            </div>
+
+            <div className='row d-flex justify-content-center'>
                 <NonFeaturedProject title="Totally Not Duke"
                                     img={notDukeIcon}
                                     desc="Todo list chatbot made with Java/JavaFX, tested with JUnit."
