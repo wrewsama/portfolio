@@ -25,8 +25,8 @@ export default function About() {
                     <h5>Skills: </h5>
 
                     <ul className="list-group text-start">
-                        <li className="list-group-item bg-transparent text-normal">Languages: Java, Python, C, JavaScript, TypeScript, Golang, HTML/CSS</li>
-                        <li className="list-group-item bg-transparent text-normal">Frameworks: Spring Boot, Node, Django, React, Vue, Express, Flask, Docker </li>
+                        <li className="list-group-item bg-transparent text-normal">Languages: Java, Python, C, JavaScript, TypeScript, Golang, HTML/CSS, Terraform </li>
+                        <li className="list-group-item bg-transparent text-normal">Tools/Frameworks: Spring Boot, Node, Django, React, Vue, Express, Flask, Docker, AWS </li>
                         <li className="list-group-item bg-transparent text-normal">Databases: MongoDB, PostgreSQL, MySQL</li>
                         <li className="list-group-item bg-transparent text-normal">Libraries: PyTorch, Tkinter, pandas, NumPy, Matplotlib</li>
                     </ul>

@@ -13,7 +13,8 @@ export default function Experience() {
                                 company="GovTech"
                                 date="May 2023 - Present"
                                 bulletPoints={["Engineered features for micro-services for the Citizen Disbursement System using technologies such as AWS, Spring Boot, Apache Kafka, Docker, and Kubernetes, handling government payouts for up to 6 million citizens",
-                                               "Optimised application performance through code refactoring, reducing memory usage by over 95%"]}/>
+                                               "Optimised application performance through code refactoring, reducing memory usage by over 95%",
+                                               "Built application infrastructure on AWS using Terraform, standardising deployments across 3 different environments"]}/>
 
                 <ExperienceItem jobTitle="Software Engineer Intern"
                                 company="Grab"
