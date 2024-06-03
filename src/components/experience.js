@@ -10,8 +10,13 @@ export default function Experience() {
                 </div>
 
                 <ExperienceItem jobTitle="Software Engineer Intern"
+                                company="TikTok"
+                                date="Jan 2024 - Present"
+                                bulletPoints={["Automated business license moderation processes by integrating third-party APIs, LLMs, and deduplication, reducing human moderation volume by 20%",
+                                               "Improved scalability of several Go and Python microservices to leverage asynchronous communication using pull-based Message Queues, reducing traffic spike-related failures by 100%"]}/>
+                <ExperienceItem jobTitle="Software Engineer Intern"
                                 company="GovTech"
-                                date="May 2023 - Present"
+                                date="May 2023 - Dec 2023"
                                 bulletPoints={["Engineered features for micro-services for the Citizen Disbursement System using technologies such as AWS, Spring Boot, Apache Kafka, Docker, and Kubernetes, handling government payouts for up to 6 million citizens",
                                                "Implemented an audit service from scratch with AWS Lambda, Terraform, Python, and GitLab CI, efficiently extracting millions of data records",
                                                "Optimised application performance through code refactoring, reducing memory usage by over 95%"]}/>
