@@ -1,12 +1,12 @@
 import React from 'react'
-import Typed from 'react-typed'
+import { ReactTyped } from 'react-typed'
 
 export default function Home() {
     return (
         <header id="home" className="my-5">
             <div className="container px-4 text-center">
                 <h1 className="fw-bolder text-heading text-with-shadow">
-                    <Typed strings={["Hi, I'm Andrew!"]}
+                    <ReactTyped strings={["Hi, I'm Andrew!"]}
                         typeSpeed={30} />
                 </h1>
                 <p className="lead text-normal text-with-shadow">
