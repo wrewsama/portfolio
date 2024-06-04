@@ -5,6 +5,7 @@ import hnrIcon from '../img/hnr.png'
 import notDukeIcon from '../img/notduke.png'
 import calcIcon from '../img/calc.png'
 import chewsyIcon from '../img/chewsy.png'
+import sakanaDbIcon from '../img/sakanadb.png'
 
 export default function OtherProjects() {
     return (
@@ -14,6 +15,14 @@ export default function OtherProjects() {
             </div>
 
             <div className="row d-flex justify-content-center mb-5">
+                <NonFeaturedProject title="SakanaDB"
+                                    img={sakanaDbIcon}
+                                    desc="A monorepo of various Database Management Systems"
+                                    link={{
+                                        name: "source code",
+                                        url: "https://github.com/wrewsama/sakanadb"
+                                    }}
+                                     />
                 <NonFeaturedProject title="Chew-sy"
                                     img={chewsyIcon}
                                     desc="Web app to help teams decide where to go for lunch made with React, Typescript, Play/Akka, and Java."
@@ -30,6 +39,10 @@ export default function OtherProjects() {
                                         url: "https://hnr2023-stayhydrated.onrender.com/"
                                     }}
                                      />
+
+            </div>
+
+            <div className='row d-flex justify-content-center'>
                 <NonFeaturedProject title="GithubContact"
                                     img={gcIcon}
                                     desc="An addressbook integrated with GitHub to manage software teams."
@@ -38,10 +51,6 @@ export default function OtherProjects() {
                                         url: "https://github.com/AY2223S1-CS2103T-W08-2/tp/releases/tag/v1.4"
                                     }}
                                      />
-
-            </div>
-
-            <div className='row d-flex justify-content-center'>
                 <NonFeaturedProject title="Totally Not Duke"
                                     img={notDukeIcon}
                                     desc="Todo list chatbot made with Java/JavaFX, tested with JUnit."
