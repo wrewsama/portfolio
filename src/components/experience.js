@@ -13,7 +13,8 @@ export default function Experience() {
                                 company="TikTok"
                                 date="Jan 2024 - Present"
                                 bulletPoints={["Automated business license moderation processes by integrating third-party APIs, LLMs, and deduplication, reducing human moderation volume by 20%",
-                                               "Improved scalability of several Go and Python microservices to leverage asynchronous communication using pull-based Message Queues, reducing traffic spike-related failures by 100%"]}/>
+                                               "Improved scalability of several Go and Python microservices to leverage asynchronous communication using pull-based Message Queues, reducing traffic spike-related failures by 100%",
+                                               "Constructed an automatic ML training and deployment pipeline with Spark and Python to train a classification model with recent data, improving model accuracy by 20%"]}/>
                 <ExperienceItem jobTitle="Software Engineer Intern"
                                 company="GovTech"
                                 date="May 2023 - Dec 2023"
